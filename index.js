@@ -30,6 +30,7 @@ const typeDefs = gql`
   type Choice {
     id: ID
     title: String
+    isSelected: Boolean
   }
   
   type Patient {
@@ -152,15 +153,19 @@ const resolvers = {
       return getPatient();
     },
     subjects: (parent, args, context) => {
+    //todo write your code here to get list of subjects from anywhere
+      //can return a promise
       return subjects;
     }
   },
   Subject: {
     questions: (parent, args, context) => {
+      //todo code here to get list of questions for that subject
       return questions[parent.id];
     }
   },
   Question: {
+    //todo code here to get list of choices for that question
     choices: (parent, args, context) => {
       return choices[parent.id];
     }
