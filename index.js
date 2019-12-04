@@ -1,17 +1,4 @@
-const {
-  CreatePatientInput,
-  Patient,
-  Device
-} = require("./models/CreatePatientInput");
 const { ApolloServer, gql } = require("apollo-server");
-const okhttp = require("okhttp");
-
-var MimeBuilder = okhttp.MimeBuilder;
-var Request = okhttp.Request;
-var RequestBody = okhttp.RequestBody;
-var RequestBuilder = okhttp.RequestBuilder;
-var FormEncodingBuilder = okhttp.FormEncodingBuilder;
-var MultiPartBuilder = okhttp.MultiPartBuilder;
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
@@ -31,34 +18,6 @@ const typeDefs = gql`
     id: ID
     title: String
     isSelected: Boolean
-  }
-  
-  type Patient {
-    id: Int
-    email: String
-    name: String
-  }
-  
-  type Query {
-    patient: Patient
-    subjects: [Subject]
-  }
-  input CreatePatientInput {
-    email: String!
-    password: String!
-    clientId: String!
-    firstName: String
-    lastName: String
-    gender: String
-    deviceId: String
-    appVersion: String
-    appVersionCode: Int
-    syncState:String!
-    lastModifiedTime:Int!
-  }
-
-  type Mutation {
-    createPatient(patientInput: CreatePatientInput!): Patient
   }
 `;
 
@@ -96,62 +55,10 @@ const choices = {
   ]
 };
 
-const books = [
-  {
-    title: "Harry Potter and the Chamber of Secrets",
-    author: "J.K. Rowling"
-  },
-  {
-    title: "Jurassic Park",
-    author: "Michael Crichton"
-  }
-];
-const patients = [
-  {
-    email: "test1@test.com",
-    name: "J.K. Rowling",
-    books: books
-  },
-  {
-    email: "test2@test.com",
-    name: "J.K. Rowling",
-    books: books
-  },
-  {
-    email: "test3@test.com",
-    name: "J.K. Rowling",
-    books: books
-  }
-];
-
 // Resolvers define the technique for fetching the types defined in the
 // schema. This resolver retrieves books from the "books" array above.
 const resolvers = {
   Query: {
-    patient: (parent, args, context) => {
-      function getPatient() {
-        return new RequestBuilder()
-          .GET("http://amun.healint.com:9002/v31/patients/99355")
-          .header("X-AUTH-TOKEN", context.x_auth_token)
-          .header("Accept", "application/json")
-          .buildAndExecute()
-          .then(value => {
-            console.log(value);
-            let patient = JSON.parse(value.data).result;
-            return {
-              id: patient.serverId,
-              name: patient.firstName,
-              email: patient.email
-            };
-          })
-          .catch(reason => {
-            console.log(reason);
-            return patients[0];
-          });
-      }
-
-      return getPatient();
-    },
     subjects: (parent, args, context) => {
     //todo write your code here to get list of subjects from anywhere
       //can return a promise
@@ -170,53 +77,6 @@ const resolvers = {
       return choices[parent.id];
     }
   },
-  Mutation: {
-    createPatient: (_, args, dataSources) => {
-      let patientInput = args.patientInput;
-      let patient = new Patient(
-          patientInput.email,
-          false,
-          patientInput.clientId,
-          patientInput.firstName
-      );
-      patient.syncState = patientInput.syncState;
-      patient.lastModifiedTime = new Date().getMilliseconds();
-      var createPatient = new CreatePatientInput(
-        null,
-        patientInput.password,
-        patient
-      );
-
-      return new RequestBuilder()
-        .url("http://amun.healint.com:9002/v28/patients")
-        .POST(
-          RequestBody.create(
-            createPatient,
-            new MimeBuilder()
-              .contentType("application/json", "charset", "utf8")
-              .build()
-          )
-        )
-        .header("Accept", "application/json")
-        .header("content-type", "application/json")
-        .buildAndExecute()
-        .then(response => {
-          if (response.response.statusCode) {
-            let result = JSON.parse(response.data).result;
-          }
-          console.log(result.email);
-          return {
-            email: result.email,
-            name: result.firstName,
-            gender: result.gender
-          };
-        })
-        .catch(error => {
-          console.log(error);
-          return { name: "something" };
-        });
-    }
-  }
 };
 
 // The ApolloServer constructor requires two parameters: your schema
@@ -238,7 +98,7 @@ const server = new ApolloServer({
 
     return {
       x_auth_token:
-        "rO0ABXeFABBtaWdyYWluZS1hbmRyb2lkAAABbqXCkDwAAAAAACQzMDhlMzc5YS05MWQ2LTQzZTktYWMxMy1hMDAxYmIzZTFjZGYAAAAAAAGEGwAAAAEABUFETUlO//////////8AJDI4NWJhZDE5ZGI2NmNmYjkwNzM3ZTQ1N2I5NzcxM2FkdGVzdA==#SoAw9iYfsy7cz88dKnRdVldrObaNoZgWcxXzX3YmXFPXhacNLcKbQ0xlAu9Faqlq7/bGl2YYTV1ckCebkX9rDA=="
+        "some auth token in future"
     };
   }
 });
