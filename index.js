@@ -7,6 +7,7 @@ const typeDefs = gql`
   type Subject {
     id: ID
     name: String
+    timeRequired: Int
     questions: [Question]
   }
   type Question {
@@ -17,42 +18,95 @@ const typeDefs = gql`
   type Choice {
     id: ID
     title: String
-    isSelected: Boolean
+    correct: Boolean
+  }
+
+  type Query {
+    subjects: [Subject]
   }
 `;
 
-
 const subjects = [
   {
-    id: 'english',
-    name: 'English'
+    id: "english",
+    name: "English",
+    timeRequired: 45
+  },
+  {
+    id: "urdu",
+    name: "Urdu",
+    timeRequired: 45
+  },
+  {
+    id: "science",
+    name: "Science",
+    timeRequired: 45
+  },
+  {
+    id: "calculus",
+    name: "Calculus",
+    timeRequired: 45
+  },
+  {
+    id: "physics",
+    name: "Physics",
+    timeRequired: 45
+  },
+  {
+    id: "chemistry",
+    name: "Chemistry",
+    timeRequired: 45
   }
 ];
 
 const questions = {
-  'english': [
+  english: [
     {
-      id: 'english_lun_mera',
-      title: 'nomi lun'
+      id: "english_lun_mera",
+      title: "nomi lun"
     },
     {
-      id: 'english_tomi',
-      title: 'nomi tomi'
+      id: "english_tomi",
+      title: "nomi tomi"
     }
   ]
 };
 
 const choices = {
-  'english_lun_mera':[
+  english_lun_mera: [
     {
-      id:'english_lun_mera_choice1',
-      title: 'choice 1'
+      id: "english_lun_mera_choice1",
+      title: "choice 1",
+      correct: true
     },
     {
-      id:'english_lun_mera_choice2',
-      title: 'choice 2'
+      id: "english_lun_mera_choice2",
+      title: "choice 2",
+      correct: false
     }
-  ]
+  ],
+    english_tomi: [
+        {
+            id: "english_tomi_choice1",
+            title: "choice 1",
+            correct: true
+        },
+        {
+            id: "english_tomi_choice2",
+            title: "choice 2",
+            correct: false
+        },
+        {
+            id: "english_tomi_choice3",
+            title: "choice 2",
+            correct: false
+        },
+        {
+            id: "english_tomi_choice4",
+            title: "choice 2",
+            correct: false
+        }
+    ]
 };
 
 // Resolvers define the technique for fetching the types defined in the
@@ -60,7 +114,7 @@ const choices = {
 const resolvers = {
   Query: {
     subjects: (parent, args, context) => {
-    //todo write your code here to get list of subjects from anywhere
+      //todo write your code here to get list of subjects from anywhere
       //can return a promise
       return subjects;
     }
@@ -68,7 +122,9 @@ const resolvers = {
   Subject: {
     questions: (parent, args, context) => {
       //todo code here to get list of questions for that subject
-      return questions[parent.id];
+      return new Promise(resolve => setTimeout(() => resolve(), 200)).then(
+        x => questions[parent.id]
+      );
     }
   },
   Question: {
@@ -76,7 +132,7 @@ const resolvers = {
     choices: (parent, args, context) => {
       return choices[parent.id];
     }
-  },
+  }
 };
 
 // The ApolloServer constructor requires two parameters: your schema
@@ -97,8 +153,7 @@ const server = new ApolloServer({
     //  console.log(req.headers);
 
     return {
-      x_auth_token:
-        "some auth token in future"
+      x_auth_token: "some auth token in future"
     };
   }
 });
