@@ -67,35 +67,35 @@ const questions = {
     },
     {
       id: "english_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "english_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "english_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "english_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "english_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "english_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "english_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "english_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "english_q10",
@@ -103,7 +103,7 @@ const questions = {
     },
     {
       id: "english_q11",
-      title: "What is Pakistan's birthday?"
+      title: "We use our eyes to — see, hear, feel, eat?"
     }
   ],
   urdu: [
@@ -342,232 +342,242 @@ const choices = {
   english_q1: [
     {
       id: "english_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "english_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "english_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "english_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   english_q2: [
     {
       id: "english_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "english_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "english_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "english_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   english_q3: [
     {
       id: "english_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "english_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "english_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "english_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   english_q4: [
     {
       id: "english_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "english_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "english_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "english_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   english_q5: [
     {
       id: "english_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "english_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "english_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "english_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   english_q6: [
     {
       id: "english_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "english_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "english_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "english_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   english_q7: [
     {
       id: "english_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "english_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "english_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "english_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   english_q8: [
     {
       id: "english_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "english_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "english_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "english_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   english_q9: [
     {
       id: "english_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "english_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "english_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "english_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   english_q10: [
     {
       id: "english_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "english_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "english_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "english_q10_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
   english_q11: [
     {
       id: "english_q11_choice1",
-      title: "choice 1",
+      title: "see",
       correct: true
     },
     {
       id: "english_q11_choice2",
-      title: "choice 2",
+      title: "hear",
       correct: false
     },
     {
       id: "english_q11_choice3",
-      title: "choice 2",
+      title: "feel",
       correct: false
     },
     {
       id: "english_q11_choice4",
-      title: "choice 2",
+      title: "eat",
       correct: false
     }
   ],
@@ -1747,7 +1757,7 @@ const resolvers = {
     questions: (parent, args, context) => {
       //todo code here to get list of questions for that subject
       return new Promise(resolve => setTimeout(() => resolve(), 200)).then(
-        x => questions[parent.id]
+          x => questions[parent.id]
       );
     }
   },
