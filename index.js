@@ -25,37 +25,37 @@ const typeDefs = gql`
     subjects: [Subject]
   }
 `;
-
+const totalTestTime = 10;
 const subjects = [
   {
     id: "english",
     name: "English",
-    timeRequired: 45
+    timeRequired: totalTestTime
   },
   {
     id: "urdu",
     name: "Urdu",
-    timeRequired: 45
+    timeRequired: totalTestTime
   },
   {
     id: "science",
     name: "Science",
-    timeRequired: 45
+    timeRequired: totalTestTime
   },
   {
     id: "calculus",
     name: "Calculus",
-    timeRequired: 45
+    timeRequired: totalTestTime
   },
   {
     id: "physics",
     name: "Physics",
-    timeRequired: 45
+    timeRequired: totalTestTime
   },
   {
     id: "chemistry",
     name: "Chemistry",
-    timeRequired: 45
+    timeRequired: totalTestTime
   }
 ];
 
@@ -101,10 +101,6 @@ const questions = {
       id: "english_q10",
       title: "What is Pakistan's birthday?"
     },
-    {
-      id: "english_q11",
-      title: "We use our eyes to — see, hear, feel, eat?"
-    }
   ],
   urdu: [
     {
