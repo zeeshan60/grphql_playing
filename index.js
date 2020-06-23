@@ -109,42 +109,38 @@ const questions = {
     },
     {
       id: "urdu_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "urdu_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "urdu_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "urdu_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "urdu_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "urdu_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "urdu_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "urdu_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "urdu_q10",
-      title: "What is Pakistan's birthday?"
-    },
-    {
-      id: "urdu_q11",
       title: "What is Pakistan's birthday?"
     }
   ],
@@ -155,42 +151,38 @@ const questions = {
     },
     {
       id: "science_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "science_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "science_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "science_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "science_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "science_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "science_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "science_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "science_q10",
-      title: "What is Pakistan's birthday?"
-    },
-    {
-      id: "science_q11",
       title: "What is Pakistan's birthday?"
     }
   ],
@@ -201,42 +193,38 @@ const questions = {
     },
     {
       id: "calculus_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "calculus_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "calculus_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "calculus_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "calculus_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "calculus_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "calculus_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "calculus_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "calculus_q10",
-      title: "What is Pakistan's birthday?"
-    },
-    {
-      id: "calculus_q11",
       title: "What is Pakistan's birthday?"
     }
   ],
@@ -247,42 +235,38 @@ const questions = {
     },
     {
       id: "physics_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "physics_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "physics_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "physics_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "physics_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "physics_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "physics_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "physics_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "physics_q10",
-      title: "What is Pakistan's birthday?"
-    },
-    {
-      id: "physics_q11",
       title: "What is Pakistan's birthday?"
     }
   ],
@@ -293,42 +277,38 @@ const questions = {
     },
     {
       id: "chemistry_q2",
-      title: "What is Pakistan's birthday?"
+      title: "How many months do we have in a year?"
     },
     {
       id: "chemistry_q3",
-      title: "What is Pakistan's birthday?"
+      title: "How many days do we have in a week?"
     },
     {
       id: "chemistry_q4",
-      title: "What is Pakistan's birthday?"
+      title: "How many days are there in a year?"
     },
     {
       id: "chemistry_q5",
-      title: "What is Pakistan's birthday?"
+      title: "What is 2+2?"
     },
     {
       id: "chemistry_q6",
-      title: "What is Pakistan's birthday?"
+      title: "Which number comes after 6?"
     },
     {
       id: "chemistry_q7",
-      title: "What is Pakistan's birthday?"
+      title: "How many colors are there in a rainbow?"
     },
     {
       id: "chemistry_q8",
-      title: "What is Pakistan's birthday?"
+      title: "What are your ears for?"
     },
     {
       id: "chemistry_q9",
-      title: "What is Pakistan's birthday?"
+      title: "Which day comes after Friday?"
     },
     {
       id: "chemistry_q10",
-      title: "What is Pakistan's birthday?"
-    },
-    {
-      id: "chemistry_q11",
       title: "What is Pakistan's birthday?"
     }
   ]
@@ -555,1188 +535,1106 @@ const choices = {
       correct: false
     }
   ],
-  english_q11: [
-    {
-      id: "english_q11_choice1",
-      title: "see",
-      correct: true
-    },
-    {
-      id: "english_q11_choice2",
-      title: "hear",
-      correct: false
-    },
-    {
-      id: "english_q11_choice3",
-      title: "feel",
-      correct: false
-    },
-    {
-      id: "english_q11_choice4",
-      title: "eat",
-      correct: false
-    }
-  ],
   urdu_q1: [
     {
       id: "urdu_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "urdu_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "urdu_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "urdu_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   urdu_q2: [
     {
       id: "urdu_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "urdu_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "urdu_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "urdu_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   urdu_q3: [
     {
       id: "urdu_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "urdu_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "urdu_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "urdu_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   urdu_q4: [
     {
       id: "urdu_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "urdu_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "urdu_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "urdu_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   urdu_q5: [
     {
       id: "urdu_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "urdu_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "urdu_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "urdu_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   urdu_q6: [
     {
       id: "urdu_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "urdu_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "urdu_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "urdu_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   urdu_q7: [
     {
       id: "urdu_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "urdu_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "urdu_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "urdu_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   urdu_q8: [
     {
       id: "urdu_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "urdu_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "urdu_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "urdu_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   urdu_q9: [
     {
       id: "urdu_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "urdu_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "urdu_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "urdu_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   urdu_q10: [
     {
       id: "urdu_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "urdu_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "urdu_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "urdu_q10_choice4",
-      title: "choice 2",
-      correct: false
-    }
-  ],
-  urdu_q11: [
-    {
-      id: "urdu_q11_choice1",
-      title: "choice 1",
-      correct: true
-    },
-    {
-      id: "urdu_q11_choice2",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "urdu_q11_choice3",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "urdu_q11_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
   science_q1: [
     {
       id: "science_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "science_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "science_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "science_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   science_q2: [
     {
       id: "science_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "science_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "science_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "science_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   science_q3: [
     {
       id: "science_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "science_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "science_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "science_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   science_q4: [
     {
       id: "science_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "science_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "science_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "science_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   science_q5: [
     {
       id: "science_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "science_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "science_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "science_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   science_q6: [
     {
       id: "science_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "science_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "science_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "science_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   science_q7: [
     {
       id: "science_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "science_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "science_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "science_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   science_q8: [
     {
       id: "science_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "science_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "science_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "science_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   science_q9: [
     {
       id: "science_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "science_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "science_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "science_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   science_q10: [
     {
       id: "science_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "science_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "science_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "science_q10_choice4",
-      title: "choice 2",
-      correct: false
-    }
-  ],
-  science_q11: [
-    {
-      id: "science_q11_choice1",
-      title: "choice 1",
-      correct: true
-    },
-    {
-      id: "science_q11_choice2",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "science_q11_choice3",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "science_q11_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
   calculus_q1: [
     {
       id: "calculus_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "calculus_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "calculus_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "calculus_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   calculus_q2: [
     {
       id: "calculus_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "calculus_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "calculus_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "calculus_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   calculus_q3: [
     {
       id: "calculus_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "calculus_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "calculus_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "calculus_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   calculus_q4: [
     {
       id: "calculus_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "calculus_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "calculus_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "calculus_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   calculus_q5: [
     {
       id: "calculus_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "calculus_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "calculus_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "calculus_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   calculus_q6: [
     {
       id: "calculus_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "calculus_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "calculus_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "calculus_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   calculus_q7: [
     {
       id: "calculus_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "calculus_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "calculus_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "calculus_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   calculus_q8: [
     {
       id: "calculus_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "calculus_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "calculus_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "calculus_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   calculus_q9: [
     {
       id: "calculus_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "calculus_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "calculus_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "calculus_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   calculus_q10: [
     {
       id: "calculus_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "calculus_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "calculus_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "calculus_q10_choice4",
-      title: "choice 2",
-      correct: false
-    }
-  ],
-  calculus_q11: [
-    {
-      id: "calculus_q11_choice1",
-      title: "choice 1",
-      correct: true
-    },
-    {
-      id: "calculus_q11_choice2",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "calculus_q11_choice3",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "calculus_q11_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
   physics_q1: [
     {
       id: "physics_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "physics_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "physics_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "physics_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   physics_q2: [
     {
       id: "physics_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "physics_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "physics_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "physics_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   physics_q3: [
     {
       id: "physics_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "physics_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "physics_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "physics_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   physics_q4: [
     {
       id: "physics_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "physics_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "physics_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "physics_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   physics_q5: [
     {
       id: "physics_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "physics_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "physics_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "physics_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   physics_q6: [
     {
       id: "physics_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "physics_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "physics_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "physics_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   physics_q7: [
     {
       id: "physics_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "physics_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "physics_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "physics_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   physics_q8: [
     {
       id: "physics_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "physics_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "physics_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "physics_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   physics_q9: [
     {
       id: "physics_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "physics_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "physics_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "physics_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   physics_q10: [
     {
       id: "physics_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "physics_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "physics_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "physics_q10_choice4",
-      title: "choice 2",
-      correct: false
-    }
-  ],
-  physics_q11: [
-    {
-      id: "physics_q11_choice1",
-      title: "choice 1",
-      correct: true
-    },
-    {
-      id: "physics_q11_choice2",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "physics_q11_choice3",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "physics_q11_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
   chemistry_q1: [
     {
       id: "chemistry_q1_choice1",
-      title: "choice 1",
+      title: "Pakistan",
       correct: true
     },
     {
       id: "chemistry_q1_choice2",
-      title: "choice 2",
+      title: "India",
+      correct: false
+    },
+    {
+      id: "chemistry_q1_choice2",
+      title: "Germany",
+      correct: false
+    },
+    {
+      id: "chemistry_q1_choice2",
+      title: "Australia",
       correct: false
     }
   ],
   chemistry_q2: [
     {
       id: "chemistry_q2_choice1",
-      title: "choice 1",
+      title: "12",
       correct: true
     },
     {
       id: "chemistry_q2_choice2",
-      title: "choice 2",
+      title: "13",
       correct: false
     },
     {
       id: "chemistry_q2_choice3",
-      title: "choice 2",
+      title: "14",
       correct: false
     },
     {
       id: "chemistry_q2_choice4",
-      title: "choice 2",
+      title: "15",
       correct: false
     }
   ],
   chemistry_q3: [
     {
       id: "chemistry_q3_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "chemistry_q3_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "chemistry_q3_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "chemistry_q3_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   chemistry_q4: [
     {
       id: "chemistry_q4_choice1",
-      title: "choice 1",
+      title: "365",
       correct: true
     },
     {
       id: "chemistry_q4_choice2",
-      title: "choice 2",
+      title: "465",
       correct: false
     },
     {
       id: "chemistry_q4_choice3",
-      title: "choice 2",
+      title: "565",
       correct: false
     },
     {
       id: "chemistry_q4_choice4",
-      title: "choice 2",
+      title: "100",
       correct: false
     }
   ],
   chemistry_q5: [
     {
       id: "chemistry_q5_choice1",
-      title: "choice 1",
+      title: "4",
       correct: true
     },
     {
       id: "chemistry_q5_choice2",
-      title: "choice 2",
+      title: "5",
       correct: false
     },
     {
       id: "chemistry_q5_choice3",
-      title: "choice 2",
+      title: "6",
       correct: false
     },
     {
       id: "chemistry_q5_choice4",
-      title: "choice 2",
+      title: "7",
       correct: false
     }
   ],
   chemistry_q6: [
     {
       id: "chemistry_q6_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "chemistry_q6_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "chemistry_q6_choice3",
-      title: "choice 2",
+      title: "9",
       correct: false
     },
     {
       id: "chemistry_q6_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   chemistry_q7: [
     {
       id: "chemistry_q7_choice1",
-      title: "choice 1",
+      title: "7",
       correct: true
     },
     {
       id: "chemistry_q7_choice2",
-      title: "choice 2",
+      title: "8",
       correct: false
     },
     {
       id: "chemistry_q7_choice3",
-      title: "choice 2",
+      title: "11",
       correct: false
     },
     {
       id: "chemistry_q7_choice4",
-      title: "choice 2",
+      title: "10",
       correct: false
     }
   ],
   chemistry_q8: [
     {
       id: "chemistry_q8_choice1",
-      title: "choice 1",
+      title: "listening",
       correct: true
     },
     {
       id: "chemistry_q8_choice2",
-      title: "choice 2",
+      title: "walking",
       correct: false
     },
     {
       id: "chemistry_q8_choice3",
-      title: "choice 2",
+      title: "talking",
       correct: false
     },
     {
       id: "chemistry_q8_choice4",
-      title: "choice 2",
+      title: "seeing",
       correct: false
     }
   ],
   chemistry_q9: [
     {
       id: "chemistry_q9_choice1",
-      title: "choice 1",
+      title: "saturday",
       correct: true
     },
     {
       id: "chemistry_q9_choice2",
-      title: "choice 2",
+      title: "monday",
       correct: false
     },
     {
       id: "chemistry_q9_choice3",
-      title: "choice 2",
+      title: "tuesday",
       correct: false
     },
     {
       id: "chemistry_q9_choice4",
-      title: "choice 2",
+      title: "wednesday",
       correct: false
     }
   ],
   chemistry_q10: [
     {
       id: "chemistry_q10_choice1",
-      title: "choice 1",
+      title: "14-08-1947",
       correct: true
     },
     {
       id: "chemistry_q10_choice2",
-      title: "choice 2",
+      title: "14-08-1948",
       correct: false
     },
     {
       id: "chemistry_q10_choice3",
-      title: "choice 2",
+      title: "14-08-1949",
       correct: false
     },
     {
       id: "chemistry_q10_choice4",
-      title: "choice 2",
+      title: "14-08-1950",
       correct: false
     }
   ],
-  chemistry_q11: [
-    {
-      id: "chemistry_q11_choice1",
-      title: "choice 1",
-      correct: true
-    },
-    {
-      id: "chemistry_q11_choice2",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "chemistry_q11_choice3",
-      title: "choice 2",
-      correct: false
-    },
-    {
-      id: "chemistry_q11_choice4",
-      title: "choice 2",
-      correct: false
-    }
-  ]
 };
 
 // Resolvers define the technique for fetching the types defined in the
